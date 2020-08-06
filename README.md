@@ -15,7 +15,7 @@ rect {
 ```
 
 ### Change the colour of the bars for each individual metric
-Use the same CSS as above, but change the selector to `rect.metric0` depending on the index of the measurement you want to change.
+Use the same CSS as above, but change the selector to `rect.metric0`, `rect.metric1`, etc., according to the index of the measurement you want to change.
 
 ## Set up and Dependencies
 
