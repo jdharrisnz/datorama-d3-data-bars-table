@@ -19,7 +19,7 @@ Use the same CSS as above, but change the selector to `rect.metric0`, `rect.metr
 
 ## Set up and Dependencies
 
-Simply add `dataBarsTable.initialize()` to the JS section, and add the below dependencies to the second tab of the Custom Widget Editor.
+Add `dataBarsTable.initialize()` to the JS section, and add the below dependencies to the second tab of the Custom Widget Editor.
 
 Script dependencies (must be loaded in this order):
 
