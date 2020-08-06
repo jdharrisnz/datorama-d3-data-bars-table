@@ -5,6 +5,8 @@ This works just like a pivot table, except bars are added inside each cell to sh
 
 Subtotals currently aren't possible, since that data is not included in the widget query response.
 
+![Preview image](image.png)
+
 ## Common Style Changes
 ### Change the colour of the bars
 Add the below CSS to the CSS section:
