@@ -16,6 +16,10 @@ body {
   padding-right: 0.5em;
 }
 
+.header, .total {
+  backdrop-filter: blur(15px);
+}
+
 .header {
   position: sticky;
   top: 0;
