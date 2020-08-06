@@ -1,5 +1,13 @@
 var dataBarsTable = {
   'initialize': function() {
+    // Don't do anything if the query is invalid
+      var query = DA.query.getQuery();
+      if (Object.keys(query.fields).length === 0) {
+        d3.select('#__da-app-content')
+        .html('<h1>Just add data!</h1><p>Add data in your widget settings to start making magic happen.</p>')
+        javascriptAbort(); // Garbage meaningless function to get the widget to stop processing
+      }
+
     // Store the query result
       var queryResult = DA.query.getQueryResult();
       var dimCount = queryResult.fields.filter(x => x.type == 'dimension').length;
