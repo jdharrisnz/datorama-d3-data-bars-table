@@ -26,8 +26,8 @@ Add `dataBarsTable.initialize()` to the JS section, and add the below dependenci
 Script dependencies (must be loaded in this order):
 
 1. https://d3js.org/d3.v5.min.js
-2. https://drive.google.com/uc?export=view&id=1n63tptnASf1tmwzCHm1yHfW7BX96_CkZ
+2. https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/data-bars-table/Data+Bars+Table.js
 
 Style dependency:
 
-1. https://drive.google.com/uc?export=view&id=1OC_2MCYQdR28XDsyuO_2ZsPjdXAFc506
+1. https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/data-bars-table/Data+Bars+Table.css
