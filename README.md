@@ -24,10 +24,8 @@ Use the same CSS as above, but change the selector to `rect.metric0`, `rect.metr
 Add `dataBarsTable.initialize();` to the JS section, and add the below dependencies to the second tab of the Custom Widget Editor.
 
 Script dependencies (must be loaded in this order):
-
 1. `https://d3js.org/d3.v5.min.js`
 2. `https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/data-bars-table/Data+Bars+Table.js`
 
 Style dependency:
-
 1. `https://dato-custom-widgets-js-css.s3.eu-west-2.amazonaws.com/data-bars-table/Data+Bars+Table.css`
